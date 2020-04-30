@@ -1,0 +1,26 @@
+.container{
+  min-height: 100vh;
+}
+
+.gohome{
+  position: fixed;
+  z-index: 10;
+  bottom: 40rpx;
+  right: 40rpx;
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 100%;
+  background-color: #4a8cf2;
+}
+
+.gohome-icon{
+  position: absolute;
+  z-index: 11;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  margin-top: -23rpx;
+  margin-left: -23rpx;
+  width: 46rpx;
+  height: 46rpx;
+}

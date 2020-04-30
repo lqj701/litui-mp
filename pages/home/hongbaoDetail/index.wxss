@@ -1,0 +1,93 @@
+.hongbaoDetal {
+  margin-top: 140rpx;
+  padding-bottom: 175rpx;
+  min-height: calc(100vh - 140rpx - 175rpx);
+  background-color: rgb(239, 239, 244);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40rpx;
+}
+
+.header-bg {
+  width: 750rpx;
+  height: 140rpx;
+}
+
+.header .avatar {
+  width: 124rpx;
+  height: 124rpx;
+  margin-top: -60rpx;
+  margin-bottom: 20rpx;
+  border: 3rpx solid #ffe2b1;
+  border-radius: 10rpx;
+}
+
+.header .text {
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.header .text:nth-child(2) {
+  font-size: 30rpx;
+  color: #666;
+}
+
+.received {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40rpx;
+}
+
+.amount {
+  font-size: 72rpx;
+  color: #333;
+  display: flex;
+}
+
+.amount .symbol {
+  font-size: 48rpx;
+  color: #333;
+  padding-top: 16rpx;
+  padding-right: 10rpx;
+}
+
+.withdraw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.withdraw-text {
+  font-size: 28rpx;
+  color: #4a8cf2;
+}
+
+.withdraw .right-icon {
+  width: 16rpx;
+  height: 26rpx;
+  margin-left: 10rpx;
+}
+
+.share {
+  position: fixed;
+  bottom: 40rpx;
+  left: 0;
+  right: 0;
+}
+
+.share .button {
+  width: 690rpx;
+  height: 94rpx;
+  background-color: #ea473d;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #fff;
+}

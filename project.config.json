@@ -1,0 +1,148 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.2",
+	"appid": "wxaaa2ccdccb1e29a2",
+	"projectname": "litui",
+	"svr": "",
+	"client": "",
+	"qcloudRoot": "",
+	"miniprogramRoot": "",
+	"pluginRoot": "",
+	"scripts": {
+		"beforeCompile": "./script/deploy.sh prod",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": 4,
+					"name": "people/card",
+					"pathName": "pages/people/card/index",
+					"query": "salesToken=7dd7365f851b4325af29b34790511ab6&getWay=0",
+					"scene": "1007"
+				},
+				{
+					"id": 1,
+					"name": "people/website",
+					"pathName": "pages/people/website/index",
+					"query": "salesToken=7dd7365f851b4325af29b34790511ab6&getWay=0",
+					"scene": "1007"
+				},
+				{
+					"id": 2,
+					"name": "people/product",
+					"pathName": "pages/people/product/index",
+					"query": "salesToken=2292596a5202441bba247a36d918b49a&getWay=0",
+					"scene": "1007"
+				},
+				{
+					"id": 3,
+					"name": "people/productDetail",
+					"pathName": "pages/people/productDetail/index",
+					"query": "salesToken=7dd7365f851b4325af29b34790511ab6&getWay=0&productId=24"
+				},
+				{
+					"id": 4,
+					"name": "home/cards",
+					"pathName": "pages/home/cards/index",
+					"query": "",
+					"scene": "1047"
+				},
+				{
+					"id": 5,
+					"name": "im",
+					"pathName": "pages/im/index",
+					"query": "salesToken=7dd7365f851b4325af29b34790511ab6&getWay=0"
+				},
+				{
+					"id": 6,
+					"name": "搜索进入",
+					"pathName": "pages/home/cards/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "错误的token",
+					"pathName": "pages/people/card/index",
+					"query": "salesToken=4343453463&getWay=0"
+				},
+				{
+					"id": 8,
+					"name": "people/map",
+					"pathName": "pages/map/index",
+					"query": "salesToken=7dd7365f851b4325af29b34790511ab6&getWay=1&address=北京天安门&company=公司",
+					"scene": "1007"
+				},
+				{
+					"id": 9,
+					"name": "home/me",
+					"pathName": "pages/home/me/index",
+					"query": "",
+					"scene": "1007"
+				},
+				{
+					"id": -1,
+					"name": "home/hongbaoDetail",
+					"pathName": "pages/home/hongbaoDetail/index",
+					"query": "salesToken=7dd7365f851b4325af29b34790511ab6&getWay=0&productId=24",
+					"scene": "1007"
+				},
+				{
+					"id": 11,
+					"name": "home/withdraw",
+					"pathName": "pages/home/withdraw/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "home/withdrawSuccess",
+					"pathName": "pages/home/withdrawSuccess/index",
+					"query": "salesToken=7dd7365f851b4325af29b34790511ab6&getWay=0"
+				},
+				{
+					"id": 13,
+					"name": "authToken",
+					"pathName": "pages/people/card/index",
+					"query": "scene=6ac7419b4a45fe294fcde3f25fe5b350",
+					"scene": "1012"
+				},
+				{
+					"id": -1,
+					"name": "pages/test/",
+					"pathName": "pages/test/index",
+					"query": "",
+					"scene": "1047"
+				}
+			]
+		}
+	}
+}

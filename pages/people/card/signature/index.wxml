@@ -1,0 +1,7 @@
+<view class="container" wx:if='{{signatureVisible}}'>
+  <view class="header">
+    个性签名
+    <view class="space-line"></view>
+  </view>
+  <text class="content">{{data}}</text>
+</view>

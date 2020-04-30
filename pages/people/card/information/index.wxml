@@ -1,0 +1,25 @@
+<view class='container'>
+
+  <image class='background' src='/static/image/card_background@2x.png'></image>
+
+  <view class='left'>
+    <image class='left-avatar' src='{{data.avatar}}' data-avatar='{{data.avatar}}' bindtap='preview'></image>
+  </view>
+
+  <view class='center'>
+    <view class='center-name'>{{data.name}}</view>
+    <view class='center-title'>{{data.position}}</view>
+    <view class='center-company'>{{data.company}}</view>
+  </view>
+
+  <view class='right'>
+    <button class='right-icon-wrapper' open-type='share'>
+      <image class='right-icon share' src='/static/icon/share-active.svg'></image>
+    </button>
+    <view class='right-icon-wrapper' bindtap='goto'>
+      <image class='right-icon wechat' src='/static/icon/wechat-active.svg'></image>
+      <Unread class='unread'></Unread>
+    </view>
+  </view>
+
+</view>

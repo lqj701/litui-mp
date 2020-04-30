@@ -1,0 +1,5 @@
+.website {
+  margin-top: 140rpx;
+  min-height: calc(100vh - 140rpx);
+  background-color: rgb(239, 239, 244);
+}

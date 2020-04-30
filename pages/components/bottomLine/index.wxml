@@ -1,0 +1,5 @@
+<view class='container'>
+  <view class='line'></view>
+  <text class='content'>已经到底啦</text>
+  <view class='line'></view>
+</view>

@@ -1,0 +1,4 @@
+.container{
+  width: 750rpx;
+  height: calc(100vh - 120rpx)
+}

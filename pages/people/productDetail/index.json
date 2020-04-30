@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Topbar": "/pages/components/topbar/index",
+    "Actionbar": "/pages/components/actionbar/index",
+    "Auth": "/pages/components/auth/index"
+  }
+}

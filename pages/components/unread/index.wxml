@@ -1,0 +1,5 @@
+<view class="unread" wx:if="{{visible}}">
+
+  <view class="number">{{data}}</view>
+
+</view>

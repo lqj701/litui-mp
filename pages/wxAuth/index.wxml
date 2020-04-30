@@ -1,0 +1,11 @@
+<view class='container'>
+
+  <image class='icon' src='/static/image/auth@2x.png' mode='widthFix' lazy-load='true'></image>
+
+  <view class='content'>励推小程序授权失败</view>
+
+  <view class='description'>小程序需要您的授权才能使用，请重新授权</view>
+  
+  <button class='btn' open-type='getUserInfo' bindgetuserinfo='userInfoHandler'> 重新授权 </button>
+
+</view>

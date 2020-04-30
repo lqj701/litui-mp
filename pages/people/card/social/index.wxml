@@ -1,0 +1,18 @@
+<view class='container' wx:if='{{visible}}'>
+
+  <view class='item'>
+    <image class='item-icon' src='/static/icon/view.svg'></image>
+    <text>浏览 {{data.browsed}}</text>
+  </view>
+  
+  <view class='item' bindtap='like'>
+    <image class='item-icon' src='{{supportIcon}}'></image>
+    <text style='color:{{supportTextColor}}'>赞 {{support}}</text>
+  </view>
+
+  <button class='item button' open-type='share'>
+    <image class='item-icon' src='/static/icon/share.svg'></image>
+    <text>转发 {{data.forward}}</text>
+  </button>
+
+</view>

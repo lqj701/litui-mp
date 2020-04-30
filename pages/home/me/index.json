@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Tabbar": "/pages/components/tabbar/index",
+    "Hongbao": "/pages/components/hongbao/index",
+    "Information": "./information/index",
+    "Menu": "./menu/index"
+  }
+}

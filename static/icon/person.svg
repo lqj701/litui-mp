@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>circle-08</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="小程序新设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的" transform="translate(-636.000000, -1240.000000)">
+            <g id="circle-08" transform="translate(636.000000, 1240.000000)">
+                <path d="M20,0 C8.97166667,0 0,8.97166667 0,20 C0,31.0283333 8.97166667,40 20,40 C31.0283333,40 40,31.0283333 40,20 C40,8.97166667 31.0283333,0 20,0 Z" id="Shape" fill="#4A8CF2" fill-rule="nonzero"></path>
+                <path d="M20,36.6666667 C15.945,36.6666667 12.225,35.2066667 9.33166667,32.79 C10.73,30.1516667 13.4716667,28.3333333 16.6666667,28.3333333 L23.3333333,28.3333333 C26.5283333,28.3333333 29.27,30.1516667 30.6683333,32.79 C27.775,35.2066667 24.055,36.6666667 20,36.6666667 Z" id="Path" fill="#FFFFFF"></path>
+                <path d="M13.3333333,16.6666667 C13.3333333,12.985 16.4066667,10 20,10 C23.5933333,10 26.6666667,12.985 26.6666667,16.6666667 L26.6666667,18.3333333 C26.6666667,22.015 23.5933333,25 20,25 C16.4066667,25 13.3333333,22.015 13.3333333,18.3333333 L13.3333333,16.6666667 Z" id="Path" fill="#A3C5F8"></path>
+            </g>
+        </g>
+    </g>
+</svg>

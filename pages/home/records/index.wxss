@@ -1,0 +1,37 @@
+.item {
+  border-bottom: 1px solid #E5E5E5;
+  margin: 20rpx 30rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+}
+
+.item-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.item-right {
+  flex: 0;
+  display: flex;
+  align-self: center;
+}
+
+.item-header {
+  font-size: 32rpx;
+}
+
+.item-data {
+  font-size: 26rpx;
+  color: #B2B2B2;
+}
+
+.item-total {
+  font-size: 40rpx;
+}
+
+.loading{  
+  padding: 10rpx;  
+  text-align: center;
+  font-size: 28rpx;  
+}  

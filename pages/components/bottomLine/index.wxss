@@ -1,0 +1,22 @@
+.container {
+  width: 750rpx;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 66rpx;
+  height: 2rpx;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.content {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  display: flex;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 26rpx;
+}

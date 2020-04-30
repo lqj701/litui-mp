@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="40px" viewBox="0 0 34 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>geotag-house-home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="小程序新设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="用户详情" transform="translate(-683.000000, -1136.000000)" fill="#C0C6CF" fill-rule="nonzero">
+            <g id="geotag-house-home" transform="translate(683.000000, 1136.000000)">
+                <path d="M16.6665,0 C25.872,0 33.333,7.466 33.333,16.664 C33.3365,21.2665 31.471,25.4335 28.4535,28.4475 L16.6665,40 L4.883,28.4505 C1.865,25.433 0,21.266 0,16.6665 C0,7.4575 7.466,0 16.6665,0 Z M17,23 C20.8659932,23 24,19.8659932 24,16 C24,12.1340068 20.8659932,9 17,9 C13.1340068,9 10,12.1340068 10,16 C10,19.8659932 13.1340068,23 17,23 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

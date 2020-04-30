@@ -1,0 +1,7 @@
+<view class='null'>
+
+  <image class='null-image' src='{{image}}'></image>
+
+  <view class='null-text'>{{text}}</view>
+
+</view>

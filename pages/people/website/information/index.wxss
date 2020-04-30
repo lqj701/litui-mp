@@ -1,0 +1,26 @@
+.container {
+  background-color: #fff;
+}
+
+.image {
+  width: 750rpx;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  background-color: #fff;
+}
+
+.description-name {
+  padding-top: 30rpx;
+  font-size: 36rpx;
+  text-align: center;
+}
+
+.description-text {
+  font-size: 30rpx;
+  padding: 30rpx;
+  color: rgba(0, 0, 0, 0.65);
+}

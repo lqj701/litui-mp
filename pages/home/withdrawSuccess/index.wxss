@@ -1,0 +1,44 @@
+page {
+  height: 100%;
+  background-color: rgb(239, 239, 244);
+}
+
+.content {
+  height: 100%;
+}
+
+icon {
+  display: block;
+  padding-top: 30rpx;
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin: 35rpx 0 50rpx 0;
+}
+
+text {
+  display: flex;
+  font-size: 28rpx;
+  color: #888888;
+  text-align: center;
+  padding: 0 40rpx;
+}
+
+.section {
+  width: 100%;
+  position: absolute;
+  bottom: 30rpx; 
+}
+
+button {
+  font-size: 32rpx;
+  color: #4A8CF2;
+  width: 50%;
+  height: 86rpx;
+  border: 1px solid #4A8CF2;
+  border-radius: 10px;
+  background-color: rgb(239, 239, 244);
+}

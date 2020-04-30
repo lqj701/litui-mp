@@ -1,0 +1,19 @@
+<view class='product' wx:if='{{isReady}}'>
+
+  <Topbar data='{{topbarData}}'></Topbar>
+
+  <Notfound wx:if='{{isNull}}' text='该用户还未设置产品哦' image='/static/image/noproduct@2x.png'></Notfound>
+
+  <scroll-view class='scroller' scroll-y>
+
+    <view class='card-wrapper' wx:for='{{products}}' wx:key='{{item.id}}' data-value='{{item.id}}' bindtap='goto'>
+
+      <Card data='{{item}}'></Card>
+
+    </view>
+
+  </scroll-view>
+
+</view>
+
+<Auth wx:if='{{authVisible}}'></Auth>

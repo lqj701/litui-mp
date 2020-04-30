@@ -1,0 +1,33 @@
+.container {
+  width: 750rpx;
+  padding-bottom: 40rpx;
+  background: #fff;
+  margin-bottom: 30rpx;
+  box-shadow: inset 0 1rpx 0 0 #e5e5e5, inset 0 -1rpx 0 0 #e5e5e5;
+}
+
+.header {
+  width: 690rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #2d3034;
+  line-height: 108rpx;
+  background-color: #fff;
+}
+
+.content {
+  width: 690rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 30rpx;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.space-line {
+  width: 690rpx;
+  height: 1rpx;
+  margin-bottom: 40rpx;
+  background: #e5e5e5;
+}

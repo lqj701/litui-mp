@@ -1,0 +1,62 @@
+.auth {
+  position: fixed;
+  z-index: 999;
+  width: 750rpx;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  position: absolute;
+  z-index: 999;
+  width: 600rpx;
+  left: 50%;
+  top: 48%;
+  border-radius: 12rpx;
+  overflow: hidden;
+  margin-top: -360rpx; /* 高度的一半，随❤️加一点 */
+  margin-left: -300rpx; /* 宽度的一半 */
+  background-color: #fff;
+  text-align: center;
+}
+
+.icon {
+  width: 100%;
+}
+
+.title {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  font-size: 36rpx;
+}
+
+.image {
+  z-index: 9999;
+  width: 520rpx;
+  height: auto;
+  border-radius: 20rpx;
+}
+
+.content {
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+  margin-top: 40rpx;
+  width: 600rpx;
+  line-height: 100rpx;
+  background: #4a8cf2;
+  font-size: 36rpx;
+  color: black;
+  background-color: #fff;
+}
+
+.btn::after {
+  border-radius: 0rpx;
+}

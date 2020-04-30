@@ -1,0 +1,56 @@
+<view class='container' wx:if="{{visible}}">
+
+  <view class='block-wrapper' wx:for='{{data}}' wx:key="id">
+
+    <view class='block--form' wx:if='{{item.type === 0 && (item.address || item.email || item.phone || item.url)}}'>
+
+      <view class='block-title'>联系方式</view>
+
+      <view class='block-content'>
+
+        <view class='block-content-item' wx:if='{{item.phone}}' data-value='{{item.phone}}' bindtap='makePhoneCall'>
+          <text class='block-content-item-title'>电话：</text>
+          <text class='block-content-item-data'>{{item.phone}}</text>
+          <image class='icon' src='/static/icon/phone.svg'></image>
+        </view>
+        <view class='space-line' wx:if='{{item.phone}}'></view>
+
+        <view class='block-content-item' wx:if='{{item.email}}' data-value='{{item.email}}' data-type='email' bindtap='copy'>
+          <text class='block-content-item-title'>邮箱：</text>
+          <text class='block-content-item-data'>{{item.email}}</text>
+          <image class='icon' src='/static/icon/email.svg'></image>
+        </view>
+
+        <view class='space-line' wx:if='{{item.email}}'></view>
+        <view class='block-content-item' wx:if='{{item.url}}' data-value='{{item.url}}' data-type='coreWeb' bindtap='copy'>
+          <text class='block-content-item-title'>网址：</text>
+          <text class='block-content-item-data'>{{item.url}}</text>
+          <image class='icon' src='/static/icon/website.svg'></image>
+        </view>
+
+        <view class='block-content-item' wx:if='{{item.address}}' data-address='{{item.address}}' data-name='{{item.name}}' data-type='map' bindtap='goto'>
+          <text class='block-content-item-title'>地址：</text>
+          <text class='block-content-item-data'>{{item.address}}</text>
+          <image class='icon' src='/static/icon/home.svg'></image>
+        </view>
+        <view class='space-line' wx:if='{{item.address}}'></view>
+
+      </view>
+
+    </view>
+
+    <view class='block--image' wx:if='{{item.type === 1 && !!item.images[0]}}'>
+
+      <view class='block-title'>{{item.name}}</view>
+      <view class='block-content'>
+        <text class='description'>{{item.descr}}</text>
+        <view class='images'>
+          <image src='{{item}}' wx:for='{{item.images}}' wx:key='id' mode='widthFix' lazy-load='true'></image>
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

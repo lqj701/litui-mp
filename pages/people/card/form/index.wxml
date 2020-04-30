@@ -1,0 +1,50 @@
+<view class='container' wx:if='{{formVisible}}'>
+
+  <view class='header'>
+    名片信息
+    <view class='space-line'></view>
+  </view>
+
+  <view class='content'>
+    <view class='item' wx:if='{{data.phone1}}' data-value='{{data.phone1}}' bindtap='makePhoneCall'>
+      <text class='item-title'>电话：</text>
+      <text class='item-data'>{{data.phone1}}</text>
+      <image class='icon' src='/static/icon/phone.svg'></image>
+    </view>
+    <view class='space-line' wx:if='{{data.phone1}}'></view>
+    <view class='item' wx:if='{{data.phone2}}' data-value='{{data.phone2}}' bindtap='makePhoneCall'>
+      <text class='item-title'>电话：</text>
+      <text class='item-data'>{{data.phone2}}</text>
+      <image class='icon' src='/static/icon/phone.svg'></image>
+    </view>
+    <view class='space-line' wx:if='{{data.phone2}}'></view>
+    <view class='item' wx:if='{{data.email}}' data-type='email' data-value='{{data.email}}' bindtap='copy'>
+      <text class='item-title'>邮箱：</text>
+      <text class='item-data'>{{data.email}}</text>
+      <image class='icon' src='/static/icon/email.svg'></image>
+    </view>
+    <view class='space-line' wx:if='{{data.email}}'></view>
+    <view class='item' wx:if='{{data.weixinid}}' data-type='weixin' data-value='{{data.weixinid}}' bindtap='copy'>
+      <text class='item-title'>微信：</text>
+      <text class='item-data'>{{data.weixinid}}</text>
+      <image class='icon' src='/static/icon/wechat.svg'></image>
+    </view>
+    <view class='space-line' wx:if='{{data.weixinid}}'></view>
+    <view class='item' wx:if='{{data.company}}'>
+      <text class='item-title'>公司：</text>
+      <text class='item-data'>{{data.company}}</text>
+      <image class='icon' src='/static/icon/company.svg'></image>
+    </view>
+    <view class='space-line' wx:if='{{data.company}}'></view>
+    <view class='item' wx:if='{{data.address}}' data-type='map' data-value='{{data.address}}' bindtap='goto'>
+      <text class='item-title'>地址：</text>
+      <text class='item-data'>{{data.address}}</text>
+      <image class='icon' src='/static/icon/home.svg'></image>
+    </view>
+    <view class='space-line' wx:if='{{data.address}}'></view>
+    <view class='save'>
+      <button bindtap='addPhoneContact'>保存到通讯录</button>
+    </view>
+  </view>
+
+</view>

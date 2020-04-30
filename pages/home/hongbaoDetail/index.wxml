@@ -1,0 +1,26 @@
+<view class='hongbaoDetal' wx:if='{{isReady}}'>
+
+  <Topbar data='{{topbarData}}'></Topbar>
+
+  <view class='header'>
+    <image class='header-bg' src='/static/image/redpacket-cover-header@2x.png'></image>
+    <image class='avatar' src='{{header.avatar}}'></image>
+    <view class='text'>{{header.name}}的红包</view>
+    <view class='text' wx:if='{{header.remark}}'>{{header.remark}}</view>
+  </view>
+
+  <view class='received' wx:if='{{myAmount && myAmount != 0}}'>
+    <view class='amount'>
+      <view class='symbol'>¥</view> {{myAmount}}</view>
+    <view class='withdraw' data-page='withdraw' bindtap='goto'>
+      <view class='withdraw-text'>已存入余额，点击提现</view>
+    </view>
+  </view>
+
+  <History header='{{historyData.header}}' list='{{historyData.list}}' myPacket='{{historyData.myPacket}}' listVisible='{{listVisible}}'></History>
+
+  <view class='share'>
+    <button class='button' open-type='share' wx:if='{{shareVisible}}'>转发红包</button>
+  </view>
+
+</view>

@@ -1,0 +1,18 @@
+.container {
+  width: 750rpx;
+  margin-bottom: 26rpx;
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.badge {
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+  padding-bottom: 4rpx;
+  padding-top: 4rpx;
+  background: #cfcfcf;
+  border-radius: 11rpx;
+  font-size: 23rpx;
+  color: #fff;
+}

@@ -1,0 +1,27 @@
+<view class='container' wx:if='{{isReady}}'>
+
+  <scroll-view scroll-y class='scroller'>
+
+    <Information data='{{informationData}}' unread='{{unread}}'></Information>
+
+    <Social data='{{socialData}}'></Social>
+
+    <Form data='{{formData}}' formVisible='{{formVisible}}'></Form>
+
+    <Signature data='{{signatureData}}' signatureVisible='{{signatureVisible}}'></Signature>
+
+    <Product data='{{productData}}' productVisible='{{productVisible}}'></Product>
+
+    <Photo data='{{photoData}}' photoVisible='{{photoVisible}}'></Photo>
+
+  </scroll-view>
+
+  <view class='gohome' bindtap='gohome'>
+    <image class='gohome-icon' src='/static/icon/gohome.svg'></image>
+  </view>
+
+</view>
+
+<Auth bindgetauth='onGetAuth' wx:if='{{authVisible && !hongbaoVisible}}'></Auth>
+
+<Hongbao orderId='{{orderId}}' redpacketId='{{redpacketId}}' auth='{{authVisible}}' salesData='{{redpacketInfo}}' hongbaoVisible='{{hongbaoVisible}}'></Hongbao>

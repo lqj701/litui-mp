@@ -1,0 +1,26 @@
+<view class='menu' wx:if='{{menuVisible}}'>
+
+  <view class='item' data-page='withdraw' bindtap='goto'>
+    <view class='item-left'>
+      <image class='item-left-icon' src='/static/icon/view.svg'></image>
+      <view class='item-left-text'>余额</view>
+    </view>
+    <view class='item-right'>
+      <view class='item-right-text'>¥ {{data}}</view>
+      <image class='item-right-icon' src='/static/icon/right.svg'></image>
+    </view>
+  </view>
+
+  <view class='space-line' wx:if='{{sendVisible}}'></view>
+
+  <view class='item' data-page='packetSend' bindtap='goto' wx:if='{{sendVisible}}'>
+    <view class='item-left'>
+      <image class='item-left-icon' src='/static/icon/red-packet-icon.svg'></image>
+      <view class='item-left-text'>发红包</view>
+    </view>
+    <view class='item-right'>
+      <image class='item-right-icon' src='/static/icon/right.svg'></image>
+    </view>
+  </view>
+
+</view>

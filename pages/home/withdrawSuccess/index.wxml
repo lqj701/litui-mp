@@ -1,0 +1,10 @@
+<view class='content'>
+  <block>
+    <icon type='success' size='70'></icon>
+    <label>提现成功</label>
+    <text>提交金额将在1-5个工作日内打到你的微信零钱当中，平台不收取任何手续费，请留意。</text>
+  </block>
+  <view class='section'>
+    <button bindtap='goto'>完成</button>
+  </view>
+</view>

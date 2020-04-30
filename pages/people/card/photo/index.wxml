@@ -1,0 +1,9 @@
+<view class='container' wx:if='{{photoVisible}}'>
+
+  <view class='header'>图片展示</view>
+
+  <view class='content'>
+      <image class='image' src='{{item}}' wx:for='{{data}}' wx:key='id' mode='widthFix' lazy-load='true'></image>
+  </view>
+
+</view>

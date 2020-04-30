@@ -1,0 +1,5 @@
+<view class='container' wx:if='{{timeVisible}}'>
+
+  <view class='badge'>{{time}}</view>
+
+</view>

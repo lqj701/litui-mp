@@ -1,0 +1,23 @@
+<view class='container' style='filter: {{blur}}' wx:if='{{isReady}}'>
+
+  <scroll-view scroll-y class='window' scroll-into-view='{{scrollIntoMsgId}}' bindscrolltoupper='onScrollToUpper'>
+
+    <view id="msg{{item.id}}" class='massage-wrapper' wx:for='{{historyMessage}}' wx:key='item.id'>
+
+      <Timebadge time='{{item.time}}' timeVisible='{{item.timeVisible}}'></Timebadge>
+
+      <Message data='{{item}}'></Message>
+
+    </view>
+
+  </scroll-view>
+
+  <form class='input' bindsubmit='formSubmit' report-submit='true'>
+
+    <input class='input-view' cursor-spacing='10' value='{{message}}' bindinput="inputMessage"></input>
+
+    <button class='input-btn' formType='submit'>发送</button>
+
+  </form>
+
+</view>

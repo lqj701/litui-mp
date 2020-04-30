@@ -1,0 +1,23 @@
+<view class='container' wx:if='{{visible}}'>
+
+  <view class='cover'>
+    <image src='{{data.image}}' mode='aspectFill'></image>
+    <view class='ui-triangle-down'></view>
+    <view class='cover-layer'>
+      <text class='cover-layer-name'>{{data.name}}</text>
+      <text class='cover-layer-price'>¥ {{data.price}}</text>
+    </view>
+  </view>
+
+  <view class='mask'></view>
+
+  <view class='content'>
+    <view class='content-title'>{{data.introduce}}</view>
+    <view class='content-like'>
+      <image class='icon' src='/static/icon/like-small.svg'></image>
+      已收到了
+      <text class='text--highlight'>{{data.support}}</text> 个赞
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,94 @@
+page {
+  height: 100%;
+  background-color: rgb(239, 239, 244);
+}
+
+.container {
+  display: block;
+}
+
+.content {
+  margin: 30rpx 30rpx 0 30rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  background-color: #fff;
+  border-radius: 8rpx;
+}
+
+.item {
+  min-height: 92rpx;
+  display: flex;
+}
+
+.item-left {
+  flex: 1
+}
+
+.item-input {
+  font-size: 32rpx;
+  height: 100rpx;
+  vertical-align: middle;
+  text-align: right;
+  margin-right: 10rpx;
+}
+
+.phcolor {
+  color: #B2B2B2;
+}
+
+.item-middle {
+  text-align: right;
+  color: #999;
+  font-size: 24rpx;
+  padding-top: 10rpx;
+  padding-right: 30rpx;
+}
+
+.item-title {
+  font-size: 32rpx;
+  color: #000;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  padding-left:10rpx;
+  float: left;
+}
+
+.item-right {
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.item-total {
+  display: flex;
+  justify-content: center;
+  padding: 50rpx 0;
+  font-size: 72rpx;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  float: left;
+}
+
+textarea {
+  font-size: 30rpx;
+  padding-top: 30rpx;
+  height: 150rpx;
+}
+
+button {
+  color: #fff;
+  background-color: #EA473D;
+  border-radius: 10rpx;
+  width: 80%;
+}
+
+button[disabled][type="default"], wx-button[disabled]:not([type]) {
+  color: #fff;
+  background-color: #EA473D;
+  opacity: 0.6;
+}

@@ -1,0 +1,94 @@
+.container {
+  position: relative;
+  width: 750rpx;
+  min-height: 350rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* 背景图片 */
+
+.background {
+  position: absolute;
+  z-index: 0;
+  width: 750rpx;
+  height: 100%;
+}
+
+/* 左侧样式 */
+
+.left {
+  position: relative;
+  padding-top: 40rpx;
+  padding-left: 60rpx;
+}
+
+.left-avatar {
+  width: 240rpx;
+  height: 240rpx;
+  background: #fff;
+  border-radius: 4rpx;
+}
+
+/* 中部样式 */
+
+.center {
+  position: relative;
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+  flex: 1;
+}
+
+.center-name {
+  color: #fff;
+  font-size: 48rpx;
+  margin-bottom: 20rpx;
+}
+
+.center-title {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+
+.center-company {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+
+/* 右侧样式 */
+
+.right {
+  position: relative;
+  padding-top: 40rpx;
+  padding-right: 40rpx;
+  padding-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-icon-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 92rpx;
+  height: 92rpx;
+  opacity: 0.9;
+  border-radius: 100%;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.right-icon {
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.unread {
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+}

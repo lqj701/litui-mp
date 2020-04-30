@@ -1,0 +1,47 @@
+.information {
+  position: relative;
+  width: 750rpx;
+  height: 350rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* 背景图片 */
+
+.background {
+  position: absolute;
+  z-index: 0;
+  width: 750rpx;
+  height: 350rpx;
+}
+
+/* 左侧样式 */
+
+.left {
+  position: relative;
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+}
+
+.left-avatar {
+  width: 240rpx;
+  height: 240rpx;
+  background: #fff;
+  border-radius: 4rpx;
+}
+
+/* 中部样式 */
+
+.center {
+  position: relative;
+  padding-top: 40rpx;
+  padding-left: 60rpx;
+  flex: 1;
+}
+
+.center-name {
+  color: #fff;
+  font-size: 48rpx;
+  margin-bottom: 20rpx;
+}

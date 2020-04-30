@@ -1,0 +1,145 @@
+.hongbao {
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0rpx;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  position: absolute;
+  z-index: 4;
+  width: 650rpx;
+  height: 868rpx;
+  left: 50%;
+  top: 48%;
+  overflow: hidden;
+  margin-top: -434rpx;
+  margin-left: -325rpx;
+  border-radius: 6rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.modal-bg {
+  position: absolute;
+  z-index: -1;
+  width: 650rpx;
+  height: 868rpx;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  height: 58rpx;
+}
+
+.close {
+  width: 28rpx;
+  height: 28rpx;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+
+/* info */
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 124rpx;
+  height: 124rpx;
+  border: 3rpx solid #ffe2b1;
+  border-radius: 10rpx;
+  margin-top: 60rpx;
+  margin-bottom: 10rpx;
+}
+
+.name {
+  font-size: 44rpx;
+  color: #ffe2b1;
+}
+
+/* new */
+
+.new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.new .text {
+  opacity: 0.8;
+  font-size: 28rpx;
+  color: #ffe2b1;
+  margin-bottom: 50rpx;
+}
+
+.new .remark {
+  padding-left: 100rpx;
+  padding-right: 100rpx; 
+  font-size: 44rpx;
+  color: #ffe2b1;
+}
+
+.new .open {
+  position: absolute;
+  z-index: 1;
+  bottom: 220rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.new .authOpen {
+  position: absolute;
+  z-index: 2;
+  bottom: 220rpx;
+  background-color: transparent;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.new .authOpen::after {
+  border: 0;
+}
+
+/* expired */
+
+.expired {
+  text-align: center;
+  margin-top: 90rpx;
+}
+
+.expired .text {
+  font-size: 44rpx;
+  color: #ffe2b1;
+}
+
+.expired .detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 369rpx;
+  opacity: 0.8;
+  font-size: 32rpx;
+  color: #ffe2b1;
+}
+
+.expired .detail .detail-right-icon {
+  width: 14rpx;
+  height: 28rpx;
+  margin-left: 20rpx;
+}

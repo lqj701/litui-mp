@@ -1,0 +1,96 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 140rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: inset 0 -1rpx 0 0 #e5e5e5;
+}
+
+.topbar-info {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-info-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 4rpx;
+  flex-shrink: 0;
+}
+
+.topbar-info-content {
+  margin-left: 20rpx;
+  height: 100rpx;
+  overflow: hidden;
+}
+
+.name {
+  font-size: 30rpx;
+  margin-bottom: 4rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.title {
+  font-size: 24rpx;
+  color: rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.topbar-button {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.topbar-button-detail, .topbar-button-contact {
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.topbar-button-detail {
+  background-color: #4a8cf2;
+}
+
+.topbar-button-detail .icon {
+  margin-right: 10rpx;
+  width: 40rpx;
+  height: 28.3rpx;
+}
+
+.topbar-button-contact {
+  background-color: #1aad19;
+}
+
+.topbar-button-contact .icon {
+  margin-right: 10rpx;
+  width: 40rpx;
+  height: 32rpx;
+}
+
+.btn-wrapper {
+  position: relative;
+}
+
+.unread {
+  position: absolute;
+  top: -12rpx;
+  right: -12rpx;
+}

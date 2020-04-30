@@ -1,0 +1,33 @@
+.container{
+  width: 750rpx;
+  min-height: calc(100vh - 120rpx);
+}
+
+.scroller {
+  height: calc(100vh - 120rpx);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list-item {
+  display: flex;
+  width: 670rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+
+.null{
+  font-size: 32rpx;
+  margin: 40rpx;
+}
+
+.ad{
+  width: 690rpx;
+  height: 1000rpx;
+  border-radius: 20rpx;
+  margin-top: 40rpx;
+}

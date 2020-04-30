@@ -1,0 +1,23 @@
+<view class='card' wx:if='{{visible}}'>
+
+  <view class='card-content'>
+    <image class='card-mask' src='/static/image/cardbg.png'></image>
+    <view class='card-content-wrapper'>
+      <view class='card-content-info-wrapper'>
+        <view class='card-content-name'>{{data.name}} </view>
+        <view class='card-content-title'>{{data.position}}</view>
+        <view class='card-content-phone'>{{data.phone}}</view>
+      </view>
+      <view class='card-content-company'>{{data.company}}</view>
+    </view>
+    <image class='card-content-avatar' src='{{data.avatar}}' lazy-load='true'></image>
+  </view>
+
+  <view class='card-info'>
+    <view class='card-info-share'>
+      {{data.getDate}} {{data.getWay}}
+    </view>
+    <view wx:if='{{data.unread}}' class='card-info-message'>{{data.unread}} 条未读消息</view>
+  </view>
+
+</view>

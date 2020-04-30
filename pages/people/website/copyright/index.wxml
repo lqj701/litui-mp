@@ -1,0 +1,9 @@
+<view class='container'>
+
+  <view class='line'></view>
+
+  <text class='content'>由<text class='content--highlight'>励推</text>提供技术支持</text>
+  
+  <text class='line'></text>
+
+</view>

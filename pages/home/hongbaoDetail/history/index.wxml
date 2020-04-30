@@ -1,0 +1,41 @@
+<view class='history' wx:if='{{listVisible}}'>
+
+  <view class='header'>
+    <view class='header-left'>{{headerLeftText}}</view>
+    <view class='header-right' wx:if='{{header.myRedpacket}}'>获客{{header.cusCount}}人</view>
+  </view>
+
+  <view class='space-line'></view>
+
+  <view class='list' wx:if='{{list[0]}}'>
+
+    <view class='item' wx:for='{{list}}' wx:key='id'>
+      <view class='item-wrapper'>
+        <view class='item-left'>
+          <image class='item-left-avatar' src='{{item.avatar}}'></image>
+          <view class='item-left-text'>
+            <view class='item-left-name'>
+              {{item.receive_name}}
+              <view class='item-left-isNew' wx:if='{{item.be_new_customer && header.myRedpacket}}'>新客户</view>
+              <view class='item-left-isNew' wx:if='{{!item.be_new_customer && header.myRedpacket}}'>老客户</view>
+            </view>
+            <view class='item-left-date'>{{item.time}}</view>
+          </view>
+        </view>
+        <view class='item-right'>
+          <view class='item-right-amount'>{{item.amount}}元</view>
+          <view class='item-right-lucky' wx:if='{{item.customer_id === header.lucky}}'>
+            <image class='item-right-lucky-icon' src='/static/icon/lucky.png'></image> 手气最佳
+          </view>
+        </view>
+      </view>
+      <view class='space-line'></view>
+    </view>
+
+  </view>
+
+  <view class='list-null' wx:if='{{!list[0]}}'>
+    <view class=''>暂无人领取</view>
+  </view>
+
+</view>

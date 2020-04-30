@@ -1,0 +1,19 @@
+<view class='container' isReady='{{isReady}}'>
+
+  <!-- <Notfound wx:if='{{isNull}}' text='你还没有收到名片哦' image='/static/image/nocard@2x.png'></Notfound> -->
+
+  <image class='ad' wx:if='{{isNull}}' src='/static/image/home.png' mode='aspectFit'></image>
+
+  <scroll-view class='scroller' scroll-y>
+
+    <view class='list-item' wx:for='{{cardListData}}' wx:key='{{item.id}}' data-value='{{item.id}}' bindtap='goto'>
+
+      <Card data='{{item}}'></Card>
+
+    </view>
+    
+  </scroll-view>
+
+</view>
+
+<Tabbar></Tabbar>

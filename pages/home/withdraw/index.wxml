@@ -1,0 +1,25 @@
+<view class='container'>
+
+  <view class='header'>
+    <image class='header-icon' src='/static/icon/view.svg'></image>
+    <view class='header-text'>我的余额</view>
+  </view>
+
+  <view class='amount'>
+    <view class='symbol'>¥</view> {{amount}}
+  </view>
+
+  <view class='input-wrapper'>
+    <view class='symbol'>¥</view>
+    <input class='input' value='{{inputAmount}}' placeholder='请输入要提现的金额' type='digit' placeholder-class='placeholder' bindinput='onInput'></input>
+    <view class='getall' bindtap='getall'>全部提现</view>
+  </view>
+
+  <button class='button' bindtap='withdraw'>提现</button>
+
+  <view class='info'>提交金额将在1-5个工作日内打到你的微信零钱当中， 平台不收取任何手续费，请留意。
+  </view>
+
+  <view class='goRecords' bindtap='goRecords'>查看交易记录</view>
+
+</view>

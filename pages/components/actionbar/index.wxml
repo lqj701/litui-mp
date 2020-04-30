@@ -1,0 +1,15 @@
+<view class='actionbar' wx:if='{{visible}}'>
+
+  <view class='actionbar-item' bindtap='support'>
+    <image class='icon' src='{{likeIcon}}'></image>
+    <text class='title' style='color:{{supportTextColor}}'>点赞 ({{data.support}})</text>
+  </view>
+
+  <button class='actionbar-item' open-type='share'>
+    <image class='icon' src='/static/icon/share.svg'></image>
+    <text class='title'>转发 ({{data.forward}})</text>
+  </button>
+
+  <view class='actionbar-mask'></view>
+
+</view>

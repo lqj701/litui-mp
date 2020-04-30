@@ -1,0 +1,19 @@
+<view class='website' wx:if='{{isReady}}'>
+
+  <Topbar data='{{topbarData}}' unreadMessage='{{unread}}'></Topbar>
+
+  <Notfound wx:if='{{isNull}}' text='该用户还未设置官网哦' image='/static/image/nowebsite@2x.png'></Notfound>
+
+  <scroll-view class='scroller' scroll-y>
+
+    <Information data="{{informationData}}"></Information>
+
+    <MyBlock data="{{blockData}}" info='{{blockInfo}}'></MyBlock>
+
+    <Copyright></Copyright>
+
+  </scroll-view>
+
+</view>
+
+<Auth wx:if='{{authVisible}}'></Auth>

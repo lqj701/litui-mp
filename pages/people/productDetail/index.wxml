@@ -1,0 +1,42 @@
+<view class='container' wx:if='{{isReady}}'>
+
+  <Topbar data='{{topbarData}}'></Topbar>
+
+  <scroll-view scroll-y class='scroller'>
+
+    <view class='product'>
+
+      <swiper class='product-swiper'>
+        <swiper-item>
+          <image class='product-cover' src='{{item}}' wx:for='{{productData.coverImages}}' wx:key='{{item}}' mode='aspectFill'></image>
+        </swiper-item>
+      </swiper>
+
+      <view class='product-title'>
+        <view class='product-title-name'>{{productData.name}}</view>
+        <view class='product-title-price'>¥ {{productData.price}}</view>
+      </view>
+
+      <view class='space-line'></view>
+
+      <view class='product-content'>
+        <view class='product-content-introduce'>{{productData.introduce}}</view>
+        <view class='product-content-like'>
+          <image class='icon' src='/static/icon/like-small.svg'></image> 收到了
+          <text class='text--highlight'>{{productData.support}}</text> 个赞
+        </view>
+      </view>
+
+    </view>
+
+    <view class='detail' wx:if='{{!!productData.images[0]}}'>
+      <image src='{{item}}' wx:for='{{productData.images}}' wx:key='{{item}}' mode='widthFix'></image>
+    </view>
+
+  </scroll-view>
+
+  <Actionbar data='{{actionbarData}}' supportState='{{supportState}}' bindsupport="onSupport"></Actionbar>
+
+</view>
+
+<Auth wx:if='{{authVisible}}'></Auth>

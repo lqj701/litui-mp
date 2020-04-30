@@ -1,0 +1,93 @@
+.container {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60rpx;
+}
+
+.header-icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 20rpx;
+}
+
+.header-text {
+  font-size: 30rpx;
+  color: #666;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40rpx;
+  font-size: 72rpx;
+  color: #333;
+}
+
+.amount .symbol {
+  font-size: 48rpx;
+  color: #333;
+  margin-right: 10rpx;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 750rpx;
+  background: #fff;
+  margin-top: 60rpx;
+}
+
+.input-wrapper .input {
+  flex: 1;
+  height: 108rpx;
+  background: #fff;
+}
+
+.input-wrapper .symbol {
+  margin-left: 30rpx;
+  margin-right: 20rpx;
+  font-size: 34rpx;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.input-wrapper .placeholder {
+  font-size: 34rpx;
+  color: #b2b2b2;
+}
+
+.input-wrapper .getall {
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+  font-size: 28rpx;
+  color: #4a8cf2;
+}
+
+.button {
+  width: 690rpx;
+  height: 94rpx;
+  margin-top: 40rpx;
+  background: #4a8cf2;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #fff;
+}
+
+.info {
+  font-size: 26rpx;
+  color: #b2b2b2;
+  margin-top: 20rpx;
+  width: 614rpx;
+}
+
+.goRecords {
+  margin-top: 480rpx;
+  font-size: 28rpx;
+  color: #4a8cf2;
+}

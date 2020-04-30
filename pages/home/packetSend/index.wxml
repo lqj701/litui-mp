@@ -1,0 +1,41 @@
+<view class='container'>
+  <scroll-view scroll-y='true'>
+    <form bindsubmit='bindSendPacketClick' report-submit='true'>
+      <view class='content'>
+        <view class='item' bindtap=''>
+          <view class='item-left'>
+            <image class='icon' src='/static/icon/red-packet-icon.svg'></image>    
+            <text class='item-title'>总金额</text>
+          </view>
+          <input type='digit' class='item-input' placeholder-class="phcolor" placeholder='0.00' value='{{command}}' name='command' maxlength='4' bindinput='commandInput'></input>
+          <text class='item-right'>元</text>
+        </view>
+      </view>
+      <view class='item-middle'>
+        <view>
+          手续费
+        <text>{{service}}</text>
+          元
+        </view>
+      </view>
+      <view class='content'>
+        <view class='item' bindtap=''>
+        <view class='item-left'>
+          <text class='item-title'>红包个数</text>
+        </view>
+        <input type='number' class='item-input' placeholder-class="phcolor" placeholder='填写个数' value='{{num}}' name='num' maxlength='6' bindinput='numInput'></input>
+        <text class='item-right'>个</text>
+        </view>
+      </view>
+      <view class='content'>
+        <textarea placeholder-class="phcolor" placeholder='恭喜发财, 大吉大利' value='{{message}}' maxlength='16' bindinput='messageInput'></textarea>
+      </view>
+      <view>
+        <text class='item-total'>¥{{total}}</text>        
+      </view>
+      <view>
+        <button hover-class='none' form-type='submit' disabled='{{disableSendPacket}}'>塞钱进红包</button>
+      </view>
+    </form>
+  </scroll-view>
+</view>

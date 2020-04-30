@@ -1,0 +1,35 @@
+<view class='topbar' wx:if='{{visible}}'>
+
+  <view class='topbar-info'>
+    <image class='topbar-info-avatar' src='{{data.avatar}}'></image>
+    <view class='topbar-info-content'>
+      <view class='name'>{{data.name}}</view>
+      <view class='title'>{{data.position}}</view>
+    </view>
+  </view>
+
+  <view class='topbar-button'>
+
+    <button class='topbar-button-detail' data-value='card' bindtap='goto'>
+      <image class='icon' src='/static/icon/card-light.svg'></image> 名片
+    </button>
+
+    <view class='btn-wrapper' wx:if='{{authVisible}}'>
+      <button class='topbar-button-contact' open-type='getPhoneNumber' bindgetphonenumber='getPhoneNumber'>
+        <image class='icon' src='/static/icon/wechat-light.svg'></image> 咨询.
+      </button>
+      <view class='dot' wx:if='{{data.unread > 0}}'>
+        <view class='number'>{{data.unread}}</view>
+      </view>
+    </view>
+
+    <view class='btn-wrapper' wx:if='{{!authVisible}}'>
+      <button class='topbar-button-contact' bindtap='goto'>
+        <image class='icon' src='/static/icon/wechat-light.svg'></image> 咨询
+      </button>
+      <Unread class='unread'></Unread>
+    </view>
+
+  </view>
+
+</view>

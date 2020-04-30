@@ -1,0 +1,9 @@
+<view class='container' wx:if='{{isReady}}'>
+
+  <Information data='{{informationData}}'></Information>
+
+  <Menu data='{{menuData}}' menuVisible='{{menuVisible}}' sendVisible='{{sendVisible}}'></Menu>
+
+</view>
+
+<Tabbar></Tabbar>

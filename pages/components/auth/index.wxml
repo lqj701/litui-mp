@@ -1,0 +1,16 @@
+<view class='auth' wx:if='{{visible}}'>
+
+  <view class='modal'>
+
+    <view class='title'>授权绑定</view>
+
+    <image class='image' src='/static/image/auth2@3x.png' mode='widthFix' lazy-load='true'></image>
+    <!--这里图片名不能有中文。。  -->
+
+    <view class='content'>授权公开信息后，继续查看该名片</view>
+
+    <button class='btn' open-type='getUserInfo' bindgetuserinfo='getAuth'> 确定 </button>
+
+  </view>
+
+</view>

@@ -1,0 +1,14 @@
+.unread {
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 100%;
+  background: #f12c20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  font-size: 26rpx;
+  color: #fff;
+}

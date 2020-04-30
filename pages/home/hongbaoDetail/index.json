@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Topbar": "/pages/components/topbar/index",
+    "History": "./history/index"
+  }
+}

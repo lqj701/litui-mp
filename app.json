@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/cards/index",
+    "pages/home/me/index",
+    "pages/home/packetSend/index",
+    "pages/home/withdrawSuccess/index",
+    "pages/home/records/index",
+    "pages/people/card/index",
+    "pages/people/product/index",
+    "pages/people/productDetail/index",
+    "pages/people/website/index",
+    "pages/im/index",
+    "pages/map/index",
+    "pages/wxAuth/index",
+    "pages/home/hongbaoDetail/index",
+    "pages/home/withdraw/index",
+    "pages/test/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "励推小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9B9B9B",
+    "selectedColor": "#4A8CF2",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/people/card/index",
+        "text": "名片",
+        "iconPath": "/static/名片_grey.png",
+        "selectedIconPath": "/static/名片_blue.png"
+      },
+      {
+        "pagePath": "pages/people/product/index",
+        "text": "产品",
+        "iconPath": "/static/产品_grey.png",
+        "selectedIconPath": "/static/产品_blue.png"
+      },
+      {
+        "pagePath": "pages/people/website/index",
+        "text": "官网",
+        "iconPath": "/static/官网_grey.png",
+        "selectedIconPath": "/static/官网_blue.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Notfound": "/pages/components/notfound/index",
+    "Tabbar": "/pages/components/tabbar/index",
+    "Card": "./card/index"
+  }
+}

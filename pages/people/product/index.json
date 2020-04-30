@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Topbar": "/pages/components/topbar/index",
+    "Notfound": "/pages/components/notfound/index",
+    "Card": "./card/index",
+    "Auth": "/pages/components/auth/index"
+  }
+}

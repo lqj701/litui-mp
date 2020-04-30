@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>tags</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="小程序新设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品列表" transform="translate(-355.000000, -1487.000000)">
+            <g id="tags" transform="translate(355.000000, 1487.000000)">
+                <path d="M32.2625,6.3875 C31.0125,1.725 24.5875,-0.6125 17.925,1.175 C11.2625,2.9625 6.8625,8.2 8.1125,12.8625 L15.225,39.425 L39.375,32.95 L32.2625,6.3875 Z M20.825,12.0375 C19.6038274,12.3638349 18.3063237,11.9223707 17.5375773,10.9189834 C16.7688309,9.91559614 16.6802532,8.54791183 17.3131523,7.45374738 C17.9460513,6.35958294 19.175772,5.75444376 20.4288365,5.92053535 C21.681901,6.08662693 22.7115071,6.99123605 23.0375,8.2125 C23.4825204,9.87967524 22.4920506,11.5920128 20.825,12.0375 Z" id="Shape" fill="#8B97A6" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#BDC6CF" points="0.625 34.1875 10.625 36.875 5.2875 16.8"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "Auth": "/pages/components/auth/index",
+    "Hongbao": "/pages/components/hongbao/index",
+    "Information": "./information/index",
+    "Form": "./form/index",
+    "Product": "./product/index",
+    "Photo": "./photo/index",
+    "Signature": "./signature/index",
+    "Social": "./social/index"
+  }
+}

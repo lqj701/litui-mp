@@ -1,0 +1,20 @@
+.null{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 750rpx;
+  height: calc(100vh - 140rpx);
+  background-color: rgb(239, 239, 244)
+}
+
+.null-image{
+  width: 160rpx;
+  height: 112rpx;
+  padding-bottom: 30rpx;
+}
+
+.null-text{
+  font-size: 32rpx;
+  color: rgb(217, 217, 217);
+}

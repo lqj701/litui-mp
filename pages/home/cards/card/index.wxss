@@ -1,0 +1,61 @@
+.card {
+  position: relative;
+  width: 670rpx;
+}
+
+.card-content {
+  position: relative;
+  z-index: 1;
+  height: 320rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+  border-radius: 12rpx;
+  background-color: transparent;
+  box-shadow: 0rpx 0rpx 32rpx rgba(0, 0, 0, 0.06);
+}
+
+.card-content-wrapper {
+  padding-top: 48rpx;
+  padding-left: 40rpx;
+}
+
+.card-content-name {
+  font-size: 40rpx;
+  color: #2d3034;
+}
+
+.card-content-info-wrapper {
+  height: 204rpx;
+}
+
+.card-content-title, .card-content-phone, .card-content-company {
+  font-size: 28rpx;
+  color: #8b97a6;
+}
+
+.card-content-avatar {
+  margin: 40rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+}
+
+.card-mask {
+  position: absolute;
+  z-index: -1;
+  width: 670rpx;
+  height: 320rpx;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.card-info-message {
+  color: #ff4b4f;
+  opacity: 0.65;
+}

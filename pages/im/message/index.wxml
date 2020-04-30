@@ -1,0 +1,16 @@
+<view class='container' wx:if='{{visible}}'>
+
+  <image class='{{avatarClass}}' src='{{data.avatar}}'></image>
+
+  <view class='{{contentClass}}'>
+
+    {{data.message}}
+
+    <view class='ui-triangle-right' wx:if='{{isCustomer}}'></view>
+    <view class='ui-triangle-right-mask' wx:if='{{isCustomer}}'></view>
+    <view class='ui-triangle-left' wx:if='{{!isCustomer}}'></view>
+    <view class='ui-triangle-left-mask' wx:if='{{!isCustomer}}'></view>
+
+  </view>
+
+</view>

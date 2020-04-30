@@ -1,0 +1,29 @@
+<view class='hongbao' wx:if='{{hongbaoVisible}}'>
+
+  <view class='modal'>
+
+    <view class='info'>
+      <image class='avatar' src='{{salesData.avatar}}'></image>
+      <view class='name'>{{salesData.name}}</view>
+    </view>
+
+    <view class='new' wx:if='{{newVisible}}'>
+      <view class='text'>给你发了一个红包</view>
+      <view class='remark'>{{salesData.remark}}</view>
+      <button class='authOpen' open-type='getUserInfo' bindgetuserinfo='getAuth' wx:if='{{auth}}'></button>
+      <image class='open' src='/static/image/open@2x.png' bindtap='open'></image>
+    </view>
+
+    <view class='expired' wx:if='{{expiredVisible}}'>
+      <view class='text'>{{expiredText}}</view>
+      <view class='detail' bindtap='goto'>
+        <view class='detail-text'>查看领取详情</view>
+        <image class='detail-right-icon' src='/static/icon/right.svg'></image>
+      </view>
+    </view>
+
+    <image class='modal-bg' src='/static/image/redpacket-cover@2x.png'></image>
+
+  </view>
+
+</view>

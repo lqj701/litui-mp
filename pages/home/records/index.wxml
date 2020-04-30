@@ -1,0 +1,20 @@
+<view>
+  <scroll-view scroll-y='true'>
+    <view class='item' wx:for='{{tradeRecordsList}}' wx:key='unique' data-data="{{item}}">
+      <view class='item-left'>
+        <text class='item-header' wx:if="{{item.type === 0}}">领取红包</text>
+        <text class='item-header' wx:elif="{{item.type === 1}}">红包到期返还</text>
+        <text class='item-header' wx:else>提现</text>
+        <text class='item-data'>{{item.created_at}}</text>
+      </view>
+      <view class='item-right'>
+        <text class='item-total' wx:if="{{item.type === 0 || item.type === 1}}">+{{item.amount}}</text>
+        <text class='item-total' wx:if='{{item.type === 2}}'>{{item.amount}}</text>
+      </view>
+    </view>
+    <view class='loading' hidden='{{!loading}}'>加载更多</view>
+    <view class='loading complete' hidden='{{!loadingComplete}}'>
+      <BottomLine></BottomLine>
+    </view>
+  </scroll-view>
+</view>
